@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman&family=KoHo:wght@300&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Charmonman', cursive;
+  font-family: 'KoHo', sans-serif;
+}
+
+body{
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.container{
+  margin: 30px auto;
+  width: 350px;
+
+}
+.bbtn{
+  width: 50%;
+  background-color: rgb(92, 94, 219);
+  color: white;
+  font-size: 18px;
+  border-right: 2px;
+}
+.Horizontal-menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #67bbbe;
+  text-align: center;
+}
+.Horizontal-menu li{
+  display: inline-block;
+}
+.Horizontal-menu a{
+  color: white;
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+}
